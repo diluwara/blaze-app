@@ -1,0 +1,72 @@
+@use "../../scss/abstracts/" as *;
+
+.basicInfo__box {
+  margin: 2rem 0;
+  font-size: 16px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin: 0.5rem;
+
+    .arrowIcon {
+      border-radius: 50%;
+      color: #333; // Default color
+      cursor: pointer; // Change the cursor to a pointer on hover
+      transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; // Smooth transition for movement, color, and shadow
+    
+      &:hover {
+        transform: translateX(5px); // Move the icon slightly to the right on hover
+        color: #007bff; // Change color on hover
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); // Add subtle glow on hover
+      }
+    }
+    
+
+    &__status {
+      width: 40px;
+      height: 22px;
+      background-color: var(--rejected-textColor);
+      border-radius: 30px;
+      padding: 1px;
+      position: relative;
+      margin: 0 2rem;
+      cursor: pointer;
+      @include mobile {
+        margin: 0;
+      }
+      &.runmode {
+        background-color: var(--approved-textColor);
+      }
+
+      &__toggle {
+        width: 18px;
+        height: 18px;
+        background-color: var(--card-bgc);
+        border-radius: 50%;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        transition: all 0.3s ease-in-out;
+        &.runmode {
+          left: 50%;
+        }
+      }
+    }
+
+    p {
+      color: #555;
+    }
+
+    span {
+      color: #333;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+// NamespaceCard.module.scss
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; // Space between form elements
+  padding: 16px;
+  background-color: #fff; // Adjust background color as needed
+  border-radius: 8px; // Adjust border-radius if needed
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional shadow for depth
+}
+
+.form label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 4px; // Space between label and input/textarea
+}
+
+.form textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 1rem;
+  resize: vertical; // Allow vertical resizing only
+}
+
+.form input[type="file"] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.form button {
+  align-self: flex-start; // Align buttons to the start
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
