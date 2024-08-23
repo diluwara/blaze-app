@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useWindowSize } from "usehooks-ts";
 import { useTranslation } from "react-i18next";
-import { images } from "../../constants";
 import sidebarNav from "../../config/sidebarNav";
 import SidebarContext from "../../store/sidebarContext";
 import LoginContext from "../../store/loginContext";

@@ -1,9 +1,42 @@
+# React Admin Panel
+
+React Admin Panel developed and build with **React (v17.0.2)**, **TypeScript (v4.4.2)** and **React Router v6**. For Styles, is used **SCSS**.
+I am excited to share this dashboard with you and look forward to hearing your feedback [**my Linkedin post**](https://www.linkedin.com/posts/zahramirzaei_responsive-multilanguage-multitheme-activity-6920075757318725634-qRks?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+# Demo
+
+Visit: [Project React Admin Panel demo](https://admin-panel-portfolio.netlify.app/)
+
+![Figma admin panel sketch](src/assets/images/figma-sketch-v3.png)
+
+# Features
+
+* Responsive layout
+* Multi language
+* Multi theme
+* Charts(cahrtjs)
+* React Hooks
+* React Context
+* React Router v6
+* SCSS Modular
+* iconify
+
+# Pages
+
+* Login
+* Dashboard
+* Products
+* Edit Product
+* Customers
+* Edit Customers
+* 404 Error(not found)
+
 
 # Getting Started
 
 **1. Clone from Github**
 
-`git clone https://github.com/diluwara/blaze-app.git`
+`git clone https://github.com/ZahraMirzaei/admin-panel.git`
 
 **2. Run `npm install` or `yarn install`**
 

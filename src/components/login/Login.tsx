@@ -2,7 +2,6 @@ import React, { useContext, useRef } from "react";
 
 import LoginContext from "../../store/loginContext";
 import langContextObj from "../../store/langContext";
-import { images } from "../../constants";
 import Input from "../UI/input/Input";
 import Button from "../UI/button/Button";
 import { useTranslation } from "react-i18next";
