@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance with the Ngrok skip browser warning header
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://e366-172-207-24-191.ngrok-free.app/",
   headers: {
     "ngrok-skip-browser-warning": "true", // This header bypasses the Ngrok warning page
   },
